@@ -120,7 +120,7 @@ export default function Home (){
 
                     <p> Saya punya keingintahuan tinggi dan kreatif, karena itu saya bisa mengembangkan pengetahuan dan skill. Makasii udah baca “a lil bit about me”. yuk ngobrol lagi hehehe..
                         </p>
-                    <button className="btn">Yuk kenalan !! 🌹</button>
+                 <a href="mailto:mahdiyaqila@gmail.com" target="_blank" rel="noreferrer">   <button className="btn">Yuk kenalan !! 🌹</button></a>
                 </div>
                     <br/>
                     <div className="enter"></div>

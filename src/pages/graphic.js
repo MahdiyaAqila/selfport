@@ -2,7 +2,6 @@ import React,{useState} from "react"
 import './pages.css'
 import Tilt from 'react-vanilla-tilt'
 import Modal from 'react-modal'
-import Shot from './shot.png'
 import Pict404 from './img/GD/di/lost.png'
 import Burger from './img/GD/cover/burger.png'
 import Aman from './img/GD/di/Aman100x.png'
@@ -114,7 +113,6 @@ export default function Graphic (){
     const [ModalIsOpenImg35, setModalIsOpenImg35] = useState(false)
     const [ModalIsOpenImg36, setModalIsOpenImg36] = useState(false)
     const [ModalIsOpenImg37, setModalIsOpenImg37] = useState(false)
-    const [ModalIsOpenImg38, setModalIsOpenImg38] = useState(false)
     const [ModalIsOpenImg39, setModalIsOpenImg39] = useState(false)
     const [ModalIsOpenImg40, setModalIsOpenImg40] = useState(false)
 
@@ -208,6 +206,7 @@ export default function Graphic (){
                         <h1 className="title-modal">Chat Illustration</h1>
                         <img className="img-sertif-modal" src={Nyaman} alt="Illustrasi Mahdiya Aqila"/>
                         <img className="img-sertif-modal" src={Frame6} alt="Illustrasi Mahdiya Aqila"/>
+                        <img className="img-modal" src={DiceritainPage2} alt="illustrasi mahdiya Aqila" />
                 </Modal>
 
             <Tilt>
@@ -309,6 +308,7 @@ export default function Graphic (){
                         <h1 className="title-modal">Hp illustration</h1>
                         <img className="img-sertif-modal" src={Aman} alt="Illustrasi Mahdiya Aqila"/>
                         <img className="img-sertif-modal" src={Frame9} alt="Illustrasi Mahdiya Aqila"/>
+                        <img className="img-sertif-modal" src={DiceritainPage2} alt="Illustrasi Mahdiya Aqila"/>
                 </Modal>
                 <Tilt>
                     <div className="small-card-1 ide" onClick={() => setModalIsOpenImg7(true)}></div>
@@ -334,6 +334,9 @@ export default function Graphic (){
                         <h1 className="title-modal">Peercon illustration</h1>
                         <img className="img-sertif-modal" src={Peercon} alt="Illustrasi Mahdiya Aqila"/>
                         <img className="img-sertif-modal" src={Frame4} alt="Illustrasi Mahdiya Aqila"/>
+                        
+                        <img className="img-sertif-modal" src={DiceritainPage2} alt="Illustrasi Mahdiya Aqila"/>
+                        
                 </Modal>
                 <Tilt>
                     <div className="small-card-1 konselor" onClick={() => setModalIsOpenImg8(true)}></div>
@@ -384,6 +387,7 @@ export default function Graphic (){
                         </div>
                         <h1 className="title-modal">Landing Page illustration</h1>
                         <img className="img-sertif-modal" src={Land} alt="Illustrasi Mahdiya Aqila"/>
+                        <img className="img-sertif-modal" src={DiceritainPage2} alt="Illustrasi Mahdiya Aqila"/>
                 </Modal>
                 <Tilt>
                     <div className="small-card-1 malem" onClick={() => setModalIsOpenImg10(true)}></div>
@@ -463,6 +467,7 @@ export default function Graphic (){
                         <h1 className="title-modal">Tersertifikasi Illustrasi</h1>
                         <img className="img-sertif-modal" src={Tersertifikasi} alt="Illustrasi Mahdiya Aqila"/>
                         <img className="img-sertif-modal" src={Frame8} alt="Illustrasi Mahdiya Aqila"/>
+                        <img className="img-sertif-modal" src={DiceritainPage2} alt="Illustrasi Mahdiya Aqila"/>
                 </Modal>
                 <Tilt>
                     <div className="small-card-1 power" onClick={() => setModalIsOpenImg23(true)} ></div>
@@ -543,6 +548,7 @@ export default function Graphic (){
                         </div>
                         <h1 className="title-modal">One click away illustration</h1>
                         <img className="img-sertif-modal" src={One} alt="Illustrasi Mahdiya Aqila"/>
+                        <img className="img-sertif-modal" src={DiceritainPage2} alt="Illustrasi Mahdiya Aqila"/>
                 </Modal>
                 <Tilt>
                     <div className="small-card-1 Peri" onClick={() => setModalIsOpenImg26(true)} ></div>
@@ -978,30 +984,7 @@ export default function Graphic (){
                         <h1>Snapgram Poster for HIMIT Anniversary "IT MOTION"</h1>
                         <img className="img-sertif-modal" src={Itmo} alt="Illustrasi Mahdiya Aqila"/>
                 </Modal>
-            <Tilt>
-                <div className="small-card-1 Snap5 w-100" onClick={() => setModalIsOpenImg11(true)}></div>
-            </Tilt>
-            <Modal 
-                    isOpen={ModalIsOpenImg11} 
-                    shouldCloseOnOverlayClick={true} 
-                    onRequestClose={()=>setModalIsOpenImg11(false)}
-                    style={
-                        {
-                            overlay:{
-                                backgroundColor: 'grey'
-                            },
-                            content:{
-                                color:'black',
-                            }
-                        }
-                    }
-                    >
-                        <div className='menu-icon-card-modal' onClick={() => setModalIsOpenImg11(false)}>
-                            <i className='fas fa-times'></i> 
-                        </div>
-                        <h1>Template ucapan graduation untuk acara Sambut Wisudawan HIMIT PENS 2020</h1>
-                        <img className="img-sertif-modal w-100" src={Kerangka} alt="Illustrasi Mahdiya Aqila"/>
-                </Modal>
+            
             <Tilt>
                 <div className="small-card-1 Snap6" onClick={() => setModalIsOpenImg33(true)}></div>
             </Tilt>
@@ -1122,10 +1105,6 @@ export default function Graphic (){
                         <h1>Random Illustration with Adobe Illustration</h1>
                         <img className="img-sertif-modal w-100" src={Snap10} alt="Illustrasi Mahdiya Aqila"/>
                 </Modal>
-               
-
-               
-            
         </section>
 
         <section className="footer">

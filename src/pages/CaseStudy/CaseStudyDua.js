@@ -28,7 +28,7 @@ export default function CaseStudyDua(){
 
     return(
         <div>
-        <a href="http://localhost:3000/casestudy">
+        <a href="/casestudy">
             <div className=' case-times'>
                 <i className=' icon-times fas fa-times'></i> 
             </div>

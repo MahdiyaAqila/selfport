@@ -446,8 +446,6 @@ body::before{
 .Coverlaku {background-image: url('./img/UI/cover/coverlaku.png');}
 .Coverlap {background-image: url('./img/UI/cover/coverlap.png');}
 .Coverlapp {background-image: url('./img/UI/cover/coverlapp.png');}
-.CoverLatih {background-image: url('./img/UI/cover/coverlatih.png');}
-
 .bgition {background-image: url('./img/CaseStudy/coverition.png');}
 .bglaku {background-image: url('./img/CaseStudy/coverlaku.png');}
 
@@ -485,6 +483,11 @@ body::before{
     .experience-card  { grid-template-columns: repeat(1, 1fr); }
     .home-section  { grid-template-columns: repeat(2, 1fr); }
     .img-modals {    grid-template-columns: repeat(2, 1fr);}
+}
+
+
+.img-sertif{
+    cursor: pointer;
 }
 
 .ui-title{

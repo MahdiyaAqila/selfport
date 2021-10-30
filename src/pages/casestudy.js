@@ -1,4 +1,4 @@
-import React,{useState} from "react"
+import React from "react"
 import './pages.css'
 import Tilt from 'react-vanilla-tilt'
 import Modal from 'react-modal'
