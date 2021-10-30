@@ -331,7 +331,7 @@ body::before{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 50px;
    
 }
 
@@ -380,7 +380,7 @@ body::before{
 }
 
 .small-card{
-    padding: 0 50px;
+    padding: 0 100px;
     display: grid;
     grid-gap: 2rem;
     margin-bottom: 50px;
@@ -465,6 +465,7 @@ body::before{
 }
 
 @media (min-width: 600px) {
+   
     .small-card { grid-template-columns: repeat(2, 1fr); }
     .big-card{  grid-template-columns: repeat(1, 1fr);}
     .sertifikat-card { grid-template-columns: repeat(2, 1fr);}
@@ -476,7 +477,7 @@ body::before{
 }
 
 @media (min-width: 800px) {
-    .small-card  { grid-template-columns: repeat(3, 1fr);  justify-content: center; }
+    .small-card  { grid-template-columns: repeat(3, 1fr);}
     .big-card{  grid-template-columns: repeat(1, 1fr);}
     .sertifikat-card  { grid-template-columns: repeat(3, 1fr); }
     .resume-skill  { grid-template-columns: repeat(5, 1fr); }
