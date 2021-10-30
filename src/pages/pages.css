@@ -389,7 +389,7 @@ body::before{
 .small-card-1{
     cursor: pointer;
     width: 130%;
-    height: 20vw;
+    height: 38vh;
     margin : -35px -35px;
     border-radius: 20px;
     background-color: var(--white-alpha-25);
@@ -446,6 +446,7 @@ body::before{
 .Coverlaku {background-image: url('./img/UI/cover/coverlaku.png');}
 .Coverlap {background-image: url('./img/UI/cover/coverlap.png');}
 .Coverlapp {background-image: url('./img/UI/cover/coverlapp.png');}
+
 .bgition {background-image: url('./img/CaseStudy/coverition.png');}
 .bglaku {background-image: url('./img/CaseStudy/coverlaku.png');}
 
@@ -475,7 +476,7 @@ body::before{
 }
 
 @media (min-width: 800px) {
-    .small-card  { grid-template-columns: repeat(3, 1fr); }
+    .small-card  { grid-template-columns: repeat(3, 1fr);  justify-content: center; }
     .big-card{  grid-template-columns: repeat(1, 1fr);}
     .sertifikat-card  { grid-template-columns: repeat(3, 1fr); }
     .resume-skill  { grid-template-columns: repeat(5, 1fr); }
