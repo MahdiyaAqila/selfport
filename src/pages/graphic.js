@@ -58,7 +58,6 @@ import Bunga from './img/GD/1@100x.png'
 import Puasa from './img/GD/puasa.png'
 import Story from './img/GD/story2.png'
 import Itmo from './img/GD/revisi.png'
-import Kerangka from './img/GD/Kerangka.png'
 
 import Snap6 from './img/GD/id10.png'
 import Snap7 from './img/GD/g2.png'
@@ -86,7 +85,6 @@ export default function Graphic (){
     const [ModalIsOpenImg8, setModalIsOpenImg8] = useState(false)
     const [ModalIsOpenImg9, setModalIsOpenImg9] = useState(false)
     const [ModalIsOpenImg10, setModalIsOpenImg10] = useState(false)
-    const [ModalIsOpenImg11, setModalIsOpenImg11] = useState(false)
     const [ModalIsOpenImg12, setModalIsOpenImg12] = useState(false)
     const [ModalIsOpenImg13, setModalIsOpenImg13] = useState(false)
     const [ModalIsOpenImg14, setModalIsOpenImg14] = useState(false)
