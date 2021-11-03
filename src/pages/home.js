@@ -104,6 +104,7 @@ export default function Home (){
                 <div className="home-icon">
                         <a href="https://www.instagram.com/designby.myla/" target="_blank" rel="noreferrer"> <i className="fab fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/mahdiya-aqila-3a2a12193/" target="_blank" rel="noreferrer"> <i className="fab fa-linkedin"></i></a>
+                        <a href="https://www.behance.net/mahdiyaaqila" target="_blank" rel="noreferrer"> <i className="fab fa-behance"></i></a>
                         <a href="mailto:mahdiyaqila@gmail.com" target="_blank" rel="noreferrer"> <i className="fas fa-envelope"></i></a>
                         <a href="https://unsplash.com/@mahdiyaaqila" target="_blank" rel="noreferrer"> <i className="fab fa-unsplash"></i></a>
                         <a href="https://dribbble.com/Mahdiyaqila" target="_blank" rel="noreferrer"> <i className="fab fa-dribbble-square"></i></a>

@@ -379,11 +379,18 @@ body::before{
     z-index: -1;
 }
 
+.m-10{
+    margin-left: 15px;
+}
+
 .small-card{
     padding: 0 100px;
     display: grid;
     grid-gap: 2rem;
     margin-bottom: 50px;
+}
+.color-purple{
+    color: var(--purple);
 }
 
 .small-card-1{
@@ -446,6 +453,7 @@ body::before{
 .Coverlaku {background-image: url('./img/UI/cover/coverlaku.png');}
 .Coverlap {background-image: url('./img/UI/cover/coverlap.png');}
 .Coverlapp {background-image: url('./img/UI/cover/coverlapp.png');}
+.Coverjadwalin {background-image: url('./img/UI/cover/coverjadwalin.png');}
 
 .bgition {background-image: url('./img/CaseStudy/coverition.png');}
 .bglaku {background-image: url('./img/CaseStudy/coverlaku.png');}
@@ -481,7 +489,7 @@ body::before{
     .big-card{  grid-template-columns: repeat(1, 1fr);}
     .sertifikat-card  { grid-template-columns: repeat(3, 1fr); }
     .resume-skill  { grid-template-columns: repeat(5, 1fr); }
-    .home-icon  { grid-template-columns: repeat(5, 1fr); }
+    .home-icon  { grid-template-columns: repeat(6, 1fr); }
     .experience-card  { grid-template-columns: repeat(1, 1fr); }
     .home-section  { grid-template-columns: repeat(2, 1fr); }
     .img-modals {    grid-template-columns: repeat(2, 1fr);}
@@ -586,7 +594,7 @@ body::before{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     text-align: justify;
-    color :white;
+    color: var(--purple);
 
 }
 

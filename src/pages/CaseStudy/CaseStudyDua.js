@@ -33,8 +33,8 @@ export default function CaseStudyDua(){
                 <i className=' icon-times fas fa-times'></i> 
             </div>
         </a>
-        <h2 className="center f-45 c-white ui-title">Laku : Aplikasi Mobile Laporan Keuangan UMKM</h2>
-        <section className="isi">
+        <h2 className="center f-45 ui-title  color-purple" >Laku : Aplikasi Mobile Laporan Keuangan UMKM</h2>
+        <section className="isi  color-purple">
         <br/>
         <br/>
         <h4 className="f-22">Nama Aplikasi : Laku</h4>

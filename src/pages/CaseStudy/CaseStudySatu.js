@@ -17,13 +17,13 @@ Modal.setAppElement('#root')
 export default function CaseStudySatu(){
 
     return(
-        <div>
+        <div >
             <a href="/casestudy">
                 <div className=' case-times'>
                     <i className=' icon-times fas fa-times'></i> 
                 </div>
             </a>
-            <h2 className="center f-45 c-white ui-title">ITION : Website kumpulan lomba IT</h2>
+            <h2 className="center f-45 ui-title color-purple" >ITION : Website kumpulan lomba IT</h2>
             <section>
                 <img className="img-sertif-modal" src={cs1} alt="UI UX Case Study Mahdiya Aqila"/>
              
