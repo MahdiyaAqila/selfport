@@ -176,7 +176,16 @@ export default function Home (){
                                 <i className='fas fa-times'></i> 
                             </div>
                             <h1>FullStack Web Developer Intern</h1>
-                            <p className="text-modal">none </p> 
+                            <p className="text-modal">
+                            PT. Harapan Jaya is one of the largest ready mix companies in Bali that provides several products such as ready-to-use cement, Paving, etc. with self-quary and experience in handling large projects.
+Together with the team I was assigned to create a company profile website. Here are the details: </p>
+                            <ol className="text-modal m-15">
+                                <li>Make a prototype website (Figma) and present it to the company</li>
+                                <li>Build a website from Front-end (React JS) to server side (ExpressJS)</li>
+                                <li>Design a database with MySQL</li>
+                                <li>Host a website with FTP via FileZilla</li>
+                                
+                            </ol> 
                             <br/>
                             
                         </Modal>
